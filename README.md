@@ -10,8 +10,6 @@ A solar-powered, battery-free LoRa sensor node designed to run indefinitely on a
 
 Most LoRa sensor nodes rely on a battery, which eventually needs to be replaced or recharged. This project avoids that entirely by harvesting energy from a small solar cell into a supercapacitor, using a dedicated energy harvesting IC to manage charging and a MOSFET load switch to keep quiescent draw as low as possible. The result is a small, maintenance-free node that can be deployed and left alone.
 
-This repository covers the hardware only — schematic, PCB layout, and fabrication files. No firmware is included.
-
 ## Key Features
 
 - **LoRa connectivity** via the SX1262 transceiver, matched for the 915 MHz band
