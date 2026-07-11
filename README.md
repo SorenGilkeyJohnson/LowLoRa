@@ -57,10 +57,10 @@ Most LoRa sensor nodes rely on a battery, which eventually needs to be replaced 
 ### PCB Layers
 
 <p align="center">
-  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="220" alt="Layer 1">
-  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="220" alt="Layer 2">
-  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="220" alt="Layer 3">
-  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="220" alt="Layer 4">
+  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="210" alt="Layer 1">
+  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="210" alt="Layer 2">
+  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="210" alt="Layer 3">
+  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="210" alt="Layer 4">
 </p>
 
 Full schematic: [`Low Power LoRa Schematic.pdf`](images/Low%20Power%20LoRa%20Schematic.pdf)
