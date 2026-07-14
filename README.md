@@ -3,7 +3,7 @@
 A solar powered, batteryless LoRa (expandable) sensor node powered from a supercapacitor charged by a small solar cell using an energy harvester. This was built around the Semtech SX1262 LoRa transceiver (US band; 915 MHz) and the low power MSPM0L110x MCU (TI; M0+), this board is a monitoring platform for anything you might want! The board is made around the solar cell and is roughly 23x24mm. 
 
 <p align="center">
-<img src="images/Low%20Power%20LoRa%20Front%20View.png" width="500" alt="Front View">
+  <img src="images/Low%20Power%20LoRa%20Front%20View.png" width="500" alt="Front View">
 </p>
 
 ## Overview
