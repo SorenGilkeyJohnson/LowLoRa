@@ -2,6 +2,10 @@
 
 A solar powered, batteryless LoRa (expandable) sensor node powered from a supercapacitor charged by a small solar cell using an energy harvester. This was built around the Semtech SX1262 LoRa transceiver (US band; 915 MHz) and the low power MSPM0L110x MCU (TI; M0+), this board is a monitoring platform for anything you might want! The board is made around the solar cell and is roughly 23x24mm. 
 
+<p align="center">
+<img src="images/Low%20Power%20LoRa%20Front%20View.png" width="500" alt="Front View">
+</p>
+
 ## Overview
 
 When researching this concept, I had found a few previous examples of this being done (e.g. [nootropicdesign](hackster.io/nootropicdesign/solar-powered-lora-weather-station-36b6ea)). I had not found an example, however, of a board that was fully self contained. When I was researching the component selection I really wanted it to be fully on board, which drove my decision to use a supercapacitor over a traditional Li-ION cell (almost none are SMD) and made me want to use a chip or PCB antenna. I found a supercapacitor that should work (this is my first time working with them), but I did not have enough room for an onboard antenna. Because of this I decided to add an external antenna through a connector. Another reason for this is the solar cell can block the RF waves from propagating properly. My project is still fairly unique from any existing solution, because I have found that it is rare to use a SMD solar cell. This is one of the biggest ones available on the market, as most are designed for handheld calculators. Figuring out the power budget was very difficult for this project, and that was probably the thing I spent the most time on. Thankfully, the SX1262 datasheet had detailed power budget options, and I was able to base it off of that (almost all of my battery consumption should be from that). This project taught me a lot about the importance of component selection! (I probably spent 2 times longer on this than any other project I had done vs the routing). When I get the board, I hope I can get it so that it is watertight. I have already done some research into gaskets for the humidity sensor (as this needs access to the outside world to get a good reading), but this seems pretty hard to do. There is a version of the sensor that has this built in, but it is far mroe expensive and is hard to get from most suppliers. I plan to use silicone around the PCB to protect the border of the solar cell from accidental damage, and put a piece of fiberglass over it. I made sure to keep all the parts that would petrude together, so I should have a slightly easier time designing the case. I hope I can get this board and test it out soon!
@@ -39,10 +43,19 @@ When researching this concept, I had found a few previous examples of this being
 ### 3D Renders
 
 ### PCB Layers
-  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="210" alt="Layer 1">
-  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="210" alt="Layer 2">
-  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="210" alt="Layer 3">
-  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="210" alt="Layer 4">
+<p align="center">
+  <img src="images/Low%20Power%20LoRa%20Front%20View.png" width="320" alt="Front View">
+  <img src="images/Low%20Power%20LoRa%20Bottom%20View%203D.png" width="320" alt="Bottom View">
+</p>
+
+### PCB Layers
+
+<p align="center">
+  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="220" alt="Layer 1">
+  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="220" alt="Layer 2">
+  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="220" alt="Layer 3">
+  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="220" alt="Layer 4">
+</p>
 
 Schematic: [`Low Power LoRa Schematic.pdf`](https://www.google.com/search?q=images/Low%2520Power%2520LoRa%2520Schematic.pdf)
 
