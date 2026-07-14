@@ -53,10 +53,10 @@ When researching this concept, I had found a few previous examples of this being
 ### PCB Layers
 
 <p align="center">
-  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="220" alt="Layer 1">
-  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="220" alt="Layer 2">
-  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="220" alt="Layer 3">
-  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="220" alt="Layer 4">
+  <img src="images/Low%20Power%20LoRa%20Layer%201.png" width="210" alt="Layer 1">
+  <img src="images/Low%20Power%20LoRa%20Layer%202.png" width="210" alt="Layer 2">
+  <img src="images/Low%20Power%20LoRa%20Layer%203.png" width="210" alt="Layer 3">
+  <img src="images/Low%20Power%20LoRa%20Layer%204.png" width="210" alt="Layer 4">
 </p>
 
 Schematic: [`Low Power LoRa Schematic.pdf`](https://www.google.com/search?q=images/Low%2520Power%2520LoRa%2520Schematic.pdf)
